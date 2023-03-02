@@ -17,10 +17,10 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link mx-3" href="index.html">With Labels</a>
-              <a class="nav-link mx-3" href="with-placeholders.html">Only Placeholders</a>
-              <a class="nav-link mx-3" href="no-labels.html">No Labels</a>
-              <a class="nav-link active" aria-current="page" href="#">Floating Labels</a>
+              <a class="nav-link mx-3"  href="index.html">With Labels</a>
+              <a class="nav-link active mx-3" aria-current="page" href="#">Only Placeholders</a>
+              <a class="nav-link mx-3"  href="no-labels.html">No Labels</a>
+              <a class="nav-link" href="floating.html">Floating Labels</a>
             </div>
           </div>
         </div>
@@ -29,16 +29,16 @@
         <div class="d-flex align-items-center justify-content-center h-100 w-100">
             <div class="card" style="width:30vw">
                 <div class="card-body">
-                    <h4 class="mb-4">Login Page - Floating Labels</h4>
+                    <h4 class="mb-4">Login Page - With only placeholders</h4>
                     <form>
-                        <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">Email address</label>
-                          </div>
-                          <div class="form-floating mb-3">
-                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                            <label for="floatingPassword">Password</label>
-                          </div>
+                        <div class="mb-3">
+                          <!-- <label for="exampleInputEmail1" class="form-label">Email address</label> -->
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+                        </div>
+                        <div class="mb-3">
+                          <!-- <label for="exampleInputPassword1" class="form-label">Password</label> -->
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
                         <div class="mb-3 form-check">
                           <input type="checkbox" class="form-check-input" id="exampleCheck1">
                           <label class="form-check-label" for="exampleCheck1">Check me out</label>
